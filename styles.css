@@ -106,7 +106,7 @@ footer img {
 }
 
 /* Reglas @media para dispositivos móviles */
-@media (max-width: 350px) {
+@media (max-width: 768px) {
     header, nav ul {
         flex-direction: column;
     }
@@ -133,5 +133,7 @@ footer img {
 
     aside img {
         margin-top: 1em; /* Añade un margen superior a las imágenes en aside para separarlas del contenido */
-    }
+        max-width: 100%;
+        height: auto;
+      }
 }
