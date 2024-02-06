@@ -133,7 +133,5 @@ footer img {
 
     aside img {
         margin-top: 1em; /* Añade un margen superior a las imágenes en aside para separarlas del contenido */
-        max-width: 100%;
-        height: auto;
       }
 }
